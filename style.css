@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+  
+}
+form{
+  color: BLACK;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  border-style:solid;
+}
+h1 {
+  color: BLACK;
+  margin-left: 20px;
+  border-style:solid;
+}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+button {
+  background-color: GREY;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
