@@ -8,6 +8,7 @@ form{
   margin-right: 150px;
   margin-left: 80px;
   border-style:solid;
+  position:absolute;
 }
 h1 {
   color: BLACK;

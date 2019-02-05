@@ -4,15 +4,48 @@
 	<a href="home.html">Back</a>
 	<head>
 	<link  rel="stylesheet" type="text/css" href=style.css>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="a.js"></script>
 	<center>
 		<h1 >REGISTRATION FORM </h1>
 	</center>
 	
+	<script>
+		$(document).ready(function(){
+			  $("#hide").click(function(){
+				    $("form").hide();
+				  });
+			  
+			  $("#show").click(function(){
+				    $("form").show();
+				  });
+			  
+			  $("#fadein").click(function(){
+				    $("h3").fadeIn("slow");
+				  });
+			  
+			  $("#fadeout").click(function(){
+				    $("h3").fadeOut("slow");
+				  });
+			  
+			  $("#animate").click(function(){
+				    $("form").animate({left: '250px'});
+				  });
+		});
+	</script>
+	
 	</head>
 	
 	<body>
+	<center>
+	<h3> Register For The Course  </h3>
+	</center>
+	<button id="hide">Hide</button>
+	<button id="show">SHOW</button>
+	<button id="fadein">FADE IN</button>
+	<button id="fadeout">FADE OUT</button>
+	<button id="animate">Animation</button>
+
 	<center>	
 		<form name="myform" onsubmit="return validation()">
 			
